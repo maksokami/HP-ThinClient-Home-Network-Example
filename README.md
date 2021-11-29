@@ -11,8 +11,8 @@ If you ever looked at UniFi products or similar and had doubts about price and s
 - (optional)External USB drive for Plex server video storage ~$40
 
 ## Software choice
-- Lvl1 hypervisor on Thin Client: VmWare ESXI. Other options to look at: KVM and Proxmox VE, XEN, Hyper-V
-Althoug ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy to add the driver in the older ESXI version:  
+- Lvl1 hypervisor on Thin Client: VmWare ESXI. Other options to look at: KVM and Proxmox VE, XEN, Hyper-V.  
+Although ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy to add the driver in the older ESXI version:  
 
 - Firewall: OpnSense. Alternatives: PfSense
 - Plex server: Ubuntu LTS
@@ -29,7 +29,7 @@ Althoug ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy 
 - [Configure the switch](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Switch%20configuration.md)
 - [Configure ESXI](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/tree/main)
 - [Install OpnSense](https://docs.opnsense.org/manual/install.html). Also see [Youtube: VMware ESXi 6.5 VM Creation and Guest OS installation](https://youtu.be/cWDU2I2RxAI?t=121)
-- Configure OpnSense Firewall VM
+- [Configure OpnSense Firewall VM](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Firewall%20configuration.md)
 - (Optional) Configure Plex server VM
 - [Configure Wi-Fi Access Point](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Home%20WAP%20configuration.md)
 - (Optional) Start PiHole on the raspPi
