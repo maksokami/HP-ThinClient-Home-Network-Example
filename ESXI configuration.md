@@ -1,8 +1,7 @@
 # ESXI configuration
 
 ## ESXI network configuration
-In this example I'm using the realtek NIC (vmnic4) as a management interface, and the server 4-port NIC for main connectivity.  
-
+In this example I'm using the realtek NIC (vmnic4) as a management interface, and the server 4-port NIC for main connectivity.   
 
 | Port Groups | vSwitch | NIC |
 | ------------- | ------------- | ------------- |
@@ -12,7 +11,12 @@ In this example I'm using the realtek NIC (vmnic4) as a management interface, an
 | pgVlan4Plex  | vSwTrunk2  | vmnic3  | 
 | pgMgmt,VM Network  | vSwitch0  | vmnic4  |
 
-**Change ESXI management interface IP**
+
+Logical diagram of ESXI interfaces:  
+![Logical diagram](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/raw/main/Home%20Network%20Diagram-Logical%20-%20Thin%20Client.png)
+
+
+**Change ESXI management interface IP**  
 pgMgmt > vSwitch0 > vmk0 > vmnic4: 192.168.1.2/24
 
 Most of the configuration can be easily done via ESXI web GUI, however I've found it easier to change default gateway through CLI. So, to change the default gateway, enable ssh server on ESXI, login to the CLI and run the following commands:
