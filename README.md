@@ -13,7 +13,7 @@ If you ever looked at UniFi products or similar and had doubts about price and s
 ## Software choice
 - Lvl1 hypervisor on Thin Client: VmWare ESXI. Other options to look at: KVM and Proxmox VE, XEN, Hyper-V
 Althoug ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy to add the driver in the older ESXI version:  
-[How to: ESXI with Realtek driver](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Build%20ESXI%20image%20with%20Realtek%20Driver.md)
+
 - Firewall: OpnSense. Alternatives: PfSense
 - Plex server: Ubuntu LTS
 - (optional) External DNS filter on rasbPi (PiHole) Alternative: NxFilter
@@ -22,3 +22,14 @@ Althoug ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy 
 ![Physical diagram](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/raw/main/Home%20Network%20Diagram-Overview.png)
 ![Logical diagram](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/raw/main/Home%20Network%20Diagram-Logical%20-%20Thin%20Client.png)
 
+## Activities
+- [Upgrade BIOS on the Thin Client](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Thin%20Client%20BIOS%20upgrade)
+- [Make an ESXI image with Realtek NIC support](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Build%20ESXI%20image%20with%20Realtek%20Driver.md)
+- [Install ESXI on the Thin Client](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.esxi.install.doc/GUID-6FFA928F-7F7D-4B1A-B05C-777279233A77.html)
+- Create VMs on the Thin Client
+- Configure OpnSense Firewall VM
+- (Optional) Configure Plex server VM
+- [Configure the switch](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Switch%20configuration.md)
+- [Configure Wi-Fi Access Point](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Home%20WAP%20configuration.md)
+- (Optional) Start PiHole on the raspPi
+- Connect all devices
