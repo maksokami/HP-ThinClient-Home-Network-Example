@@ -35,7 +35,7 @@ Although ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy
 - [Make an ESXI image with Realtek NIC support](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Build%20ESXI%20image%20with%20Realtek%20Driver.md)
 - [Install ESXI on the Thin Client](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.esxi.install.doc/GUID-6FFA928F-7F7D-4B1A-B05C-777279233A77.html)
 - [Configure the switch](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Switch%20configuration.md)
-- [Configure ESXI](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/tree/main)
+- [Configure ESXI](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/ESXI%20configuration.md)
 - [Install OpnSense](https://docs.opnsense.org/manual/install.html). Also see [Youtube: VMware ESXi 6.5 VM Creation and Guest OS installation](https://youtu.be/cWDU2I2RxAI?t=121)
 - [Configure OpnSense Firewall VM](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Firewall%20configuration.md)
 - (Optional) Configure Plex server VM
