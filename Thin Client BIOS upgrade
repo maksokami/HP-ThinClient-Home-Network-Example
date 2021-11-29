@@ -1,0 +1,11 @@
+# BIOS upgrade
+
+## Required
+- Windows
+
+## USB preparation
+- On Windows: Download latest BIOS from https://support.hp.com/us-en/drivers/selfservice/hp-t730-thin-client/8604909
+- On Windows: Run the installer on Windows - it will unpack files to a selected folder.
+- On Windows: Open Readme and follow instruction for update from BIOS (using F10). Open executable in ./Win folder, It will format and prepare a USB stick.
+- On HP thin client boot: Insert prepared USB and boot to "Computer Configuration" (BIOS menu)
+- HP thin client BIOS: In BIOS menu select "Upgrade from USB" option
