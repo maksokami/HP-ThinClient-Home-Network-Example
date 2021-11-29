@@ -1,6 +1,17 @@
 # HP-ThinClient-Home-Network-Example
 If you ever looked at UniFi products or similar and had doubts about price and security, this repo will show how to setup a reasonably priced and secure local network with firewall, VPN, DNS filtering, VLAN support, Plex server, etc and without relying on 3rd party cloud providers.
 
+
+## Requirements / Desired network
+- Free firewall with rich functionality as the central router for all LAN hosts.
+- Home network with multiple VLANs, each of which has a separate set of rules and restrictions.
+- Home Wi-Fi with multiple SSIDs that map to multiple VLANs
+- (optional) Ability to enable a DNS filter and manage it separately from the firewall with nice interface - Pi Hole on RaspPi on the diagram
+- (optional) Ability to connect a stationary PC directly to the firewall with dedicated set of rules
+
+Possible physical diagram example:  
+![Physical diagram](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/raw/main/Home%20Network%20Diagram-Overview.png)
+
 ## Parts and budget
 (Prices as of 2020)
 - Used cisco switch with PoE for WiFi AP (WAP) and enough port (Example: Cisco SG200-10FP, SG200-8P) ~$50-$80
@@ -18,9 +29,6 @@ Although ESXI doesn't support Realtek NIC in the HP Thin cliet, it's fairly easy
 - Plex server: Ubuntu LTS
 - (optional) External DNS filter on rasbPi (PiHole) Alternative: NxFilter
 
-## Physical diagram
-![Physical diagram](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/raw/main/Home%20Network%20Diagram-Overview.png)
-![Logical diagram](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/raw/main/Home%20Network%20Diagram-Logical%20-%20Thin%20Client.png)
 
 ## Activities
 - [Upgrade BIOS on the Thin Client](https://github.com/maksokami/HP-ThinClient-Home-Network-Example/blob/main/Thin%20Client%20BIOS%20upgrade)
